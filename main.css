@@ -1,3 +1,5 @@
+/*Only changes the style of the headline*/
+
 h1{
   font-family: "Playfair Display", serif;
   font-style: oblique;
@@ -6,18 +8,21 @@ h1{
   font-style: normal;
 }
 
+/*paragraph style*/
+
 p{
   font-family: "Arial", serif;
 }
 
 div.text{
-  margin: auto;
+margin: auto;
 max-width: 600px;
 background-color: ghostwhite;
 padding: 15x;
-margin-top: 15px;
+margin-top: 20px;
 }
 
+/*background style*/
 
 body{background-color: darkred;}
 
@@ -32,9 +37,13 @@ margin: auto;
 
 figcaption{
   font-style: italic;
+  font-family: "Arial", serif;
 }
 
-img{max-width: 100%;}
+img{max-width: 80%;
+padding-top:40px ;  
+padding-bottom: 20px;
+}
 
 .container {
   width: 80%;
